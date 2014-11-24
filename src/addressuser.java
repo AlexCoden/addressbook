@@ -9,14 +9,14 @@ public class addressuser {public static void main(String[] args) {
     int com, ind;
     String name, phone, email;
 
-    name = "Джесика";
-    phone = "89053564396";
-    email = "Jeci@gmail.com";
+    name = "Джон";
+    phone = "89051234567";
+    email = "Johne@gmail.com";
     address adr = new address(name, phone, email);
     addressbook.add(adrBook, adr);
-    name = "Смит";
-    phone = "89999999999";
-    email = "Smit@yandex.ru";
+    name = "Алекс";
+    phone = "89161234567";
+    email = "Alex@yandex.ru";
     adr = new address(name, phone, email);
     addressbook.add(adrBook, adr);
 
