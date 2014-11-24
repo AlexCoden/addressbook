@@ -41,7 +41,7 @@ public class addressuser {public static void main(String[] args) {
                 System.out.print("Индексы ячеек с указанными именами: ");
                 if (find.length > 0) {
                     for (int i = 0; i < find.length; i++) {
-                        System.out.println(i + " / " + adrBook.book[i].name + " / " + adrBook.book[i].phone + " / " + adrBook.book[i].email);
+                        System.out.println(find[i] + " / " + adrBook.book[find[i]].name + " / " + adrBook.book[find[i]].phone + " / " + adrBook.book[find[i]].email);
                     }
                 } else {
                     // ничего не найдено
